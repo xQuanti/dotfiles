@@ -11,5 +11,4 @@ This repository contains a script for installing packages on your system. You ca
 run the following one-liner command in your terminal:
 
 ```bash
-bash -c "$(wget -qO- https://raw.githubusercontent.com/xQuanti/Installers/master/debian_installer.sh)"
-
+bash -c "$(wget -qO- https://raw.githubusercontent.com/xQuanti/dotfiles/main/installers/dialog_installer.sh)"
