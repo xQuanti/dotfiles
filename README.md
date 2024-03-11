@@ -1,6 +1,6 @@
-![Example Dialog](https://github.com/xQuanti/Installers/raw/master/img/dialog_installer_1.png)
+![Example Dialog](https://raw.githubusercontent.com/xQuanti/dotfiles/main/installers/img/dialog_installer_1.png)
 
-![Example Dialog](https://github.com/xQuanti/Installers/raw/master/img/dialog_installer_0.png)
+![Example Dialog](https://raw.githubusercontent.com/xQuanti/dotfiles/main/installers/img/dialog_installer_0.png)
 
 # Debian sid Installer Script
 
