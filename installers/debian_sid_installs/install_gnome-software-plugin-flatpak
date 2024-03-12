@@ -1,2 +1,0 @@
-#!/bin/bash
-sudo apt install gnome-software-plugin-flatpak -y
