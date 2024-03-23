@@ -129,7 +129,7 @@ configure_prompt() {
 
 #export PYENV_ROOT="$HOME/.pyenv" - maybe we will use it in further time again
 #command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
-eval "$(pyenv init -)"
+#eval "$(pyenv init -)"
 
 
 
