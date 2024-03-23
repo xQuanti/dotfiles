@@ -127,8 +127,8 @@ configure_prompt() {
     esac
 }
 
-export PYENV_ROOT="$HOME/.pyenv"
-command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
+#export PYENV_ROOT="$HOME/.pyenv" - maybe we will use it in further time again
+#command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
 eval "$(pyenv init -)"
 
 
@@ -156,7 +156,7 @@ configure_prompt
 
 date-global
 echo "--------------------------------"
-neofetch
+neofetch | lolcat
 
 [[ -f "$HOME/.aliases" ]] && source "$HOME/.aliases"
 [[ -f "$HOME/.extras" ]] && source "$HOME/.extras"

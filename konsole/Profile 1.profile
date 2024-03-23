@@ -1,5 +1,5 @@
 [Appearance]
-ColorScheme=Breeze
+ColorScheme=Nordic
 Font=Monospace,12,-1,5,50,0,0,0,0,0
 
 [General]

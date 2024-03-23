@@ -5,8 +5,8 @@ alias myip="curl ifconfig.me"
 alias landevices="sudo nmap -sP 192.168.8.0/24 | grep  "Nmap scan report for" | awk -F ' '  '{print $5, $6}'"
 
 #Run Installer from repo
-#alias installer='bash -c "$(wget -qO- https://raw.githubusercontent.com/xQuanti/Installers/master/debian_installer.sh)"'
-alias installer='cd $HOME/dotfiles/installers && ./dialog_installer.sh'
+#alias installer='cd $HOME/dotfiles/installers && ./dialog_installer.sh'
+alias installer='bash -c "$(wget -qO- https://raw.githubusercontent.com/xQuanti/installer/main/debian_installer.sh)"'
 
 #LazyDocker
 alias lzd='docker run --rm -it -v /var/run/docker.sock:/var/run/docker.sock -v $HOME/.lazydocker/:/.config/jesseduffield/lazydocker lazyteam/lazydocker'
